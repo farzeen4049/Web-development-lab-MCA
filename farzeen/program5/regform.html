@@ -1,0 +1,72 @@
+<html>
+<head>
+<title>Registration Form</title>
+<link rel="stylesheet" href="regstyle.css">
+</head>
+
+<body>
+
+<h1>Registration Form</h1>
+
+<form >
+ <fieldset>
+  <legend>User Data</legend>
+  <label for="fname">Name:</label>
+  
+  <select id="fname" name="fname">
+  
+  <option value="Mr.">Mr.</option>
+  <option value="Mrs.">Mrs.</option>
+  <option value="Miss">Miss</option>
+  
+  <input type="text" id="fname" name="fname" required><br><br>
+  
+  <label for="Phone">Phone:</label>
+  <input type="int" id="Phone" name="Phone"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+ </fieldset>
+</form>
+
+<label for="Address">Address:</label>
+  <textarea id="Address" name="Address"></textarea><br><br>
+  
+  <label for="gender">Gender:</label>
+  <input type="radio" id="male" name="Gender">
+  <label for="male">Male</label>
+  <input type="radio" id="female" name="Gender">
+  <label for="female">Female</label>  
+  <input type="radio" id="other" name="Gender">
+  <label for="other">Other</label><br><br>
+  
+  
+ <label for="languages">Languages Knowledge:</label>
+  <input type="checkbox" id="english" name="languages">
+  <label for="english">English</label>
+  <input type="checkbox" id="malayalam" name="languages">
+  <label for="malayalam">Malayalam</label>  
+  <input type="checkbox" id="hindi" name="languages">
+  <label for="hindi">Hindi</label><br><br> 
+  
+  
+  <label for="course">Course:</label>
+<select name="course" id="course">
+  <option >MCA</option>
+  <option >MBA</option>
+  <option >B.Arch</option>
+  <option >B.Tech in A.I</option>
+  <option >B.Tech in CSE</option>
+  <option >B.Tech in EEE</option>
+</select>
+
+<br><br>
+
+  <div style="text-align: center;">
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+  </div>
+ 
+
+
+</body>
+</html>
